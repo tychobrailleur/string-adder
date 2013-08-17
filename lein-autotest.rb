@@ -4,7 +4,7 @@ end
 
 def match_testing(output)
   image_root = "~/.autotest_images"
-  if output =~ /FAIL/
+  if output =~ /FAIL|ERROR/
     notify "FAIL", "#{output}", "#{image_root}/fail.png"
   else
     notify "Pass", "#{output}", "#{image_root}/pass.png"
