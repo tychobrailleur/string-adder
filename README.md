@@ -6,6 +6,19 @@ A Clojure library designed to ... well, that part is up to you.
 
 FIXME
 
+## Testing
+
+Install `libnotify-bin`
+
+Install `watchr`:
+```
+gem install watchr
+```
+
+Then run script:
+
+  watchr ./lein-autotest.rb
+
 ## License
 
 Copyright © 2013 FIXME
